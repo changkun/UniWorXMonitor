@@ -1,0 +1,306 @@
+[
+  {
+    "courses": [
+      {
+        "Automotive Blockpraktikum": "Apply"
+      }, 
+      {
+        "Fortgeschrittene Funktionale Programmierung": "Apply"
+      }, 
+      {
+        "Hauptseminar \"Recent Developments in Data Science\"": "Apply"
+      }, 
+      {
+        "Hauptseminar Medieninformatik": "Apply"
+      }, 
+      {
+        "Hauptseminar Rechnernetze": "Apply"
+      }, 
+      {
+        "Information-theoretic Data Mining": "Not Possible"
+      }, 
+      {
+        "Master-Seminar Artificial Intelligence": "Apply"
+      }, 
+      {
+        "Medientechnik (Praktikum)": "Apply"
+      }, 
+      {
+        "Medientechnik (Vorlesung + \u00dcbung)": "Apply"
+      }, 
+      {
+        "Open Games Workshop (OGW)": "Not Possible"
+      }, 
+      {
+        "Praktikum 3D-Modellierung (P3D)": "Not Possible"
+      }, 
+      {
+        "Praktikum Compilerbau": "Apply"
+      }, 
+      {
+        "Praktikum Mobile und Verteilte Systeme": "Apply"
+      }, 
+      {
+        "Proseminar Rechnernetze": "Apply"
+      }, 
+      {
+        "Rechnerarchitektur": "Not Possible"
+      }, 
+      {
+        "Seminar \"Probablistische Programmierung\"": "Apply"
+      }, 
+      {
+        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Abend)": "Not Possible"
+      }, 
+      {
+        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Vormittag)": "Not Possible"
+      }, 
+      {
+        "Softwareentwicklungspraktikum Android-Programmierung": "Apply"
+      }, 
+      {
+        "Softwareentwicklungspraktikum Spieleentwicklung mit JavaScript": "Apply"
+      }, 
+      {
+        "Theoretische Informatik f\u00fcr Medieninformatiker": "Apply"
+      }, 
+      {
+        "Zentralanmeldung Masterseminare": "Not Possible"
+      }, 
+      {
+        "Zentralanmeldung Softwareentwicklungspraktika SS17": "Not Possible"
+      }
+    ], 
+    "semester": "SoSe2017"
+  }, 
+  {
+    "courses": [
+      {
+        "\"Einf\u00fchrung in das wissenschaftliche Arbeiten - R\u00e4umliche Informationssysteme\"": "Not Possible"
+      }, 
+      {
+        "Automata Theory": "Apply"
+      }, 
+      {
+        "Bachelor-Seminar \"Trends in Mobilen und Verteilten Systemen\"": "Apply"
+      }, 
+      {
+        "Bachelor-Seminar: Offene Probleme der Informatik": "Apply"
+      }, 
+      {
+        "Bachelorseminar Modellierung dynamischer und adaptiver Systeme": "Apply"
+      }, 
+      {
+        "Bachelorseminar Stable Marriage Problem und andere (verwandte) Zuordnungs- und Verteilungsprobleme": "Apply"
+      }, 
+      {
+        "Begleitseminar zum studienbegleitenden Praktikum": "Apply"
+      }, 
+      {
+        "Betriebssysteme": "Not Possible"
+      }, 
+      {
+        "Big Data Management and Analytics": "Not Possible"
+      }, 
+      {
+        "Blockpraktikum Experience Design": "Apply"
+      }, 
+      {
+        "Blockpraktikum Informationsvisualisierung mit Processing": "Not Possible"
+      }, 
+      {
+        "Coding Theory": "Apply"
+      }, 
+      {
+        "Concept Development Praktikum": "Apply"
+      }, 
+      {
+        "Datenbanksysteme I": "Not Possible"
+      }, 
+      {
+        "Design Workshop 1 (Grundlagen Industriedesign)": "Not Possible"
+      }, 
+      {
+        "Design Workshop 2": "Apply"
+      }, 
+      {
+        "Didaktik der Informatik 1 (Modul P2)": "Not Possible"
+      }, 
+      {
+        "Digitale Medien": "Not Possible"
+      }, 
+      {
+        "Einf\u00fchrung in die Informatik: Programmierung und Softwareentwicklung": "Apply"
+      }, 
+      {
+        "Einf\u00fchrung in die Programmierung": "Not Possible"
+      }, 
+      {
+        "Einf\u00fchrung in die Programmierung f\u00fcr Nebenfach Medieninformatik": "Apply"
+      }, 
+      {
+        "Exercise \"Human Computation and Analytics\"": "Not Possible"
+      }, 
+      {
+        "Grundlagen der Analysis": "Apply"
+      }, 
+      {
+        "Hauptseminar \"Recent Developments in Data Science\"": "Not Possible"
+      }, 
+      {
+        "Hauptseminar \"Technology-Enhanced Learning\"": "Not Possible"
+      }, 
+      {
+        "Hauptseminar Data Science & Ethics": "Not Possible"
+      }, 
+      {
+        "Hauptseminar Medieninformatik": "Not Possible"
+      }, 
+      {
+        "Hauptseminar: Hochleistungsrechner: Aktuelle Trends und Entwicklungen": "Not Possible"
+      }, 
+      {
+        "H\u00f6here Programmiersprachen: Scala": "Not Possible"
+      }, 
+      {
+        "Information-theoretic Data Mining": "Apply"
+      }, 
+      {
+        "Informationsvisualisierung": "Not Possible"
+      }, 
+      {
+        "Interface Design for MMT": "Not Possible"
+      }, 
+      {
+        "IT-Sicherheit - Sicherheit vernetzter Systeme": "Apply"
+      }, 
+      {
+        "Javakurs f\u00fcr Anf\u00e4nger": "Apply"
+      }, 
+      {
+        "Juristisches IT-Projektmanagement": "Apply"
+      }, 
+      {
+        "Knowledge Representation": "Not Possible"
+      }, 
+      {
+        "Kurs Zeichnen und Skizzieren von Szenarien": "Not Possible"
+      }, 
+      {
+        "Master Practical Course / Master-Praktikum \"Data Analysis with Python\"": "Not Possible"
+      }, 
+      {
+        "Master-Seminar / Hauptseminar \"Citizien Science\"": "Not Possible"
+      }, 
+      {
+        "Master-Seminar / Hauptseminar \"physiological data analysis for educational technologies\"": "Not Possible"
+      }, 
+      {
+        "Masterseminar Modellierung dynamischer und adaptiver Systeme": "Not Possible"
+      }, 
+      {
+        "Mensch-Maschine-Interaktion 2": "Not Possible"
+      }, 
+      {
+        "Mobilkommunikation I": "Apply"
+      }, 
+      {
+        "Multimedia im Netz": "Not Possible"
+      }, 
+      {
+        "Open Games Workshop": "Not Possible"
+      }, 
+      {
+        "Praktikum 3D-Modellierung": "Not Possible"
+      }, 
+      {
+        "Praktikum Entwicklung Mediensysteme": "Not Possible"
+      }, 
+      {
+        "Praktikum Innovative Mobile Applications \u2013 Programmierung autonomer Systeme": "Not Possible"
+      }, 
+      {
+        "Praktikum iOS-Entwicklung": "Not Possible"
+      }, 
+      {
+        "Praktikum Mediengestaltung - SDI": "Not Possible"
+      }, 
+      {
+        "Praktikum Mobile und Verteilte Systeme": "Not Possible"
+      }, 
+      {
+        "Praktikum Webentwicklung": "Not Possible"
+      }, 
+      {
+        "Praktikum: Advanced Software Development in Modern C++": "Not Possible"
+      }, 
+      {
+        "Proseminar Data Science & Ethics": "Apply"
+      }, 
+      {
+        "Proseminar Medieninformatik": "Apply"
+      }, 
+      {
+        "Proseminar Social Media": "Not Possible"
+      }, 
+      {
+        "Prozess-orientiertes IT Service Management (Kompaktseminar)": "Not Possible"
+      }, 
+      {
+        "PSK Kurs 1": "Not Possible"
+      }, 
+      {
+        "PSK Kurs 2": "Not Possible"
+      }, 
+      {
+        "Rechnernetze Praktikum (RNP)": "Not Possible"
+      }, 
+      {
+        "Seminar \"Design und Verifikation paralleler und nebenl\u00e4ufiger Algorithmen\"": "Apply"
+      }, 
+      {
+        "Seminar \"Statische Programmanalyse\"": "Apply"
+      }, 
+      {
+        "Seminar \"Vertiefte Themen in Mobilen und Verteilten Systemen\"": "Not Possible"
+      }, 
+      {
+        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Abend)": "Not Possible"
+      }, 
+      {
+        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Mittag)": "Not Possible"
+      }, 
+      {
+        "SEP Spieleentwicklung mit JavaScript": "Apply"
+      }, 
+      {
+        "Sketching with Hardware 2017 A": "Apply"
+      }, 
+      {
+        "Softwareentwicklungspraktikum (Java)": "Apply"
+      }, 
+      {
+        "Softwareentwicklungspraktikum Nebenfach": "Apply"
+      }, 
+      {
+        "Softwaretechnik": "Apply"
+      }, 
+      {
+        "Systempraktikum": "Apply"
+      }, 
+      {
+        "\u00dcbung zu Didaktik der Informatik": "Apply"
+      }, 
+      {
+        "Vorlesung: Parallel and High Performance Computing": "Not Possible"
+      }, 
+      {
+        "Zentralanmeldung Bachelorseminare": "Not Possible"
+      }, 
+      {
+        "Zentralanmeldung SEPs/SysPrak": "Not Possible"
+      }
+    ], 
+    "semester": "WiSe2016/17"
+  }
+]
