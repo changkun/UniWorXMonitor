@@ -2,7 +2,7 @@
   {
     "courses": [
       {
-        "Automotive Blockpraktikum": "Apply"
+        "Automotive Blockpraktikum": "Not Possible"
       }, 
       {
         "Fortgeschrittene Funktionale Programmierung": "Apply"
@@ -18,6 +18,12 @@
       }, 
       {
         "Information-theoretic Data Mining": "Not Possible"
+      }, 
+      {
+        "Intellectual Property & Information Technology": "Not Possible"
+      }, 
+      {
+        "Javakurs f\u00fcr Fortgeschrittene": "Not Possible"
       }, 
       {
         "Master-Seminar Artificial Intelligence": "Apply"
@@ -68,7 +74,7 @@
         "Zentralanmeldung Masterseminare": "Not Possible"
       }, 
       {
-        "Zentralanmeldung Softwareentwicklungspraktika SS17": "Not Possible"
+        "Zentralanmeldung Softwareentwicklungspraktika SS17": "Apply"
       }
     ], 
     "semester": "SoSe2017"

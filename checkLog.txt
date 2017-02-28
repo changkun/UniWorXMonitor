@@ -1,0 +1,14 @@
+Check Date:2017-02-28 19:38:34.278950
+All new courses:
+{u'Hauptseminar Medieninformatik': 'Apply'}
+{u'Hauptseminar Rechnernetze': 'Apply'}
+
+Check Date:2017-02-28 19:38:59.133954
+All new courses:
+{u'Master-Seminar Artificial Intelligence': 'Apply'}
+{u'Medientechnik (Praktikum)': 'Apply'}
+
+Check Date:2017-02-28 19:39:39.636568
+All new courses:
+{u'Praktikum Compilerbau': 'Apply'}
+{u'Praktikum Mobile und Verteilte Systeme': 'Apply'}

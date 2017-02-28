@@ -96,18 +96,24 @@ def monitor():
           else: 
             continue
 
+  import datetime
+  changes = ['\n', 'Check Date:'+str(datetime.datetime.now())]
   if courses_changed:
-    print('All new courses:')
+    changes.append('All new courses:')
     for course in courses_changed:
-      print(course)
+      changes.append(str(course))
   else:
     if old_courses:
-      print('No further changes.')
+      changes.append('No further changes.')
     else:
-      print('Local storage created, you might see new courses after next execution.')
+      change.append('Local storage created, you might see new courses after next execution.')
 
+  with open('checkLog.txt', 'a') as f:
+    f.write('\n'.join(changes))
   with open('courses.json', 'w+') as f:
     json.dump(new_courses, f, indent=2)
+
+  print('Please open checkLog.txt and check the bottom changes for this monitor.')
 
 
 def main():
