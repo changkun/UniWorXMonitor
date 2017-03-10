@@ -1,0 +1,20 @@
+
+
+
+Check Date:2017-03-10 14:30:11.345465
+All new courses:
+    Apply     : Informationssicherheits-Management (Kompaktseminar)
+    Apply     : Intellectual Property & Information Technology
+    Apply     : IT-Management
+
+
+Check Date:2017-03-10 14:30:38.138637
+All new courses:
+    Apply     : Javakurs für Fortgeschrittene
+ Not Possible : Praktikum 3D-Modellierung (P3D)
+    Apply     : Praktikum iOS-Entwicklung
+    Apply     : Theoretische Informatik für Medieninformatiker
+
+
+Check Date:2017-03-10 14:31:02.499478
+No further changes.

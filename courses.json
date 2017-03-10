@@ -5,6 +5,9 @@
         "Automotive Blockpraktikum": "Not Possible"
       }, 
       {
+        "Fachdidaktisches Seminar Realschule 2017 (Teil des Moduls P12 Realschule)": "Apply"
+      }, 
+      {
         "Fortgeschrittene Funktionale Programmierung": "Apply"
       }, 
       {
@@ -17,13 +20,19 @@
         "Hauptseminar Rechnernetze": "Apply"
       }, 
       {
-        "Information-theoretic Data Mining": "Not Possible"
+        "Information-theoretic Data Mining": "Apply"
       }, 
       {
-        "Intellectual Property & Information Technology": "Not Possible"
+        "Informationssicherheits-Management (Kompaktseminar)": "Apply"
       }, 
       {
-        "Javakurs f\u00fcr Fortgeschrittene": "Not Possible"
+        "Intellectual Property & Information Technology": "Apply"
+      }, 
+      {
+        "IT-Management": "Apply"
+      }, 
+      {
+        "Javakurs f\u00fcr Fortgeschrittene": "Apply"
       }, 
       {
         "Master-Seminar Artificial Intelligence": "Apply"
@@ -44,22 +53,28 @@
         "Praktikum Compilerbau": "Apply"
       }, 
       {
+        "Praktikum iOS-Entwicklung": "Apply"
+      }, 
+      {
         "Praktikum Mobile und Verteilte Systeme": "Apply"
+      }, 
+      {
+        "Praktikum Software Engineering f\u00fcr Fortgeschrittene": "Not Possible"
       }, 
       {
         "Proseminar Rechnernetze": "Apply"
       }, 
       {
-        "Rechnerarchitektur": "Not Possible"
+        "Rechnerarchitektur": "Apply"
       }, 
       {
         "Seminar \"Probablistische Programmierung\"": "Apply"
       }, 
       {
-        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Abend)": "Not Possible"
+        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Abend)": "Apply"
       }, 
       {
-        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Vormittag)": "Not Possible"
+        "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Vormittag)": "Apply"
       }, 
       {
         "Softwareentwicklungspraktikum Android-Programmierung": "Apply"
@@ -109,7 +124,7 @@
         "Big Data Management and Analytics": "Not Possible"
       }, 
       {
-        "Blockpraktikum Experience Design": "Apply"
+        "Blockpraktikum Experience Design": "Not Possible"
       }, 
       {
         "Blockpraktikum Informationsvisualisierung mit Processing": "Not Possible"
@@ -121,7 +136,7 @@
         "Concept Development Praktikum": "Apply"
       }, 
       {
-        "Datenbanksysteme I": "Not Possible"
+        "Datenbanksysteme I": "Apply"
       }, 
       {
         "Design Workshop 1 (Grundlagen Industriedesign)": "Not Possible"
@@ -175,16 +190,10 @@
         "Informationsvisualisierung": "Not Possible"
       }, 
       {
-        "Interface Design for MMT": "Not Possible"
-      }, 
-      {
-        "IT-Sicherheit - Sicherheit vernetzter Systeme": "Apply"
-      }, 
-      {
         "Javakurs f\u00fcr Anf\u00e4nger": "Apply"
       }, 
       {
-        "Juristisches IT-Projektmanagement": "Apply"
+        "Juristisches IT-Projektmanagement": "Not Possible"
       }, 
       {
         "Knowledge Representation": "Not Possible"
@@ -280,7 +289,7 @@
         "SEP Spieleentwicklung mit JavaScript": "Apply"
       }, 
       {
-        "Sketching with Hardware 2017 A": "Apply"
+        "Sketching with Hardware 2017 A": "Not Possible"
       }, 
       {
         "Softwareentwicklungspraktikum (Java)": "Apply"
@@ -289,7 +298,7 @@
         "Softwareentwicklungspraktikum Nebenfach": "Apply"
       }, 
       {
-        "Softwaretechnik": "Apply"
+        "Softwaretechnik": "Not Possible"
       }, 
       {
         "Systempraktikum": "Apply"

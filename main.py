@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import csv
+import sys
 
 # basic info
 url = 'https://uniworx.ifi.lmu.de'
@@ -99,21 +100,34 @@ def monitor():
   import datetime
   changes = ['\n', 'Check Date:'+str(datetime.datetime.now())]
   if courses_changed:
+    print('All new courses:')
+    print('---------------')
     changes.append('All new courses:')
     for course in courses_changed:
-      changes.append(str(course))
+      if sys.version_info[0] == 3:
+        status = course[list(course.keys())[0]].center(14) + ': ' + list(course.keys())[0]
+      else:
+        status = course[course.keys()[0]].center(14) + ': ' + course.keys()[0]
+      print(status)
+      changes.append(status)
+    print('---------------')
   else:
     if old_courses:
+      print('No further changes.')
       changes.append('No further changes.')
     else:
+      print('Local storage created, you might see new courses after next execution.')
       change.append('Local storage created, you might see new courses after next execution.')
 
-  with open('checkLog.txt', 'a') as f:
-    f.write('\n'.join(changes))
+  with open('log.txt', 'a') as f:
+    if sys.version_info[0] == 3:
+      f.write('\n'.join(changes))
+    else:
+      for change in changes:
+        f.write('\n'+change.encode('utf-8'))
   with open('courses.json', 'w+') as f:
-    json.dump(new_courses, f, indent=2)
-
-  print('Please open checkLog.txt and check the bottom changes for this monitor.')
+    json.dump(new_courses, f, indent=2) 
+  print('You can also open `log.txt` and check for changes history.')
 
 
 def main():
