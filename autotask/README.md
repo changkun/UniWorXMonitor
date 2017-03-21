@@ -1,8 +1,8 @@
-# AUTO TASK for macOS
+# AUTOMATED TASK for macOS
 
-Please read this specification carefully for setup auto execute task script.
+Please read this specification carefully for setup automated execute task script.
 
-Before you setup the auto task, please make sure you already execute UniWorXMonitor succefully at least once to avoid any potential errors.
+Before you setup the automated task, please make sure you already execute UniWorXMonitor succefully at least once to avoid any potential errors.
 
 ## Step 1: config your `.plist` file
 
@@ -22,7 +22,7 @@ Please edit your [`auto.sh`](./auto.sh) and modify the following content:
 cd /PATH/TO/YOUR/UniworXMonitor
 ```
 
-## Step 3: setup auto-execute task
+## Step 3: setup automated execution task
 
 Move the `.plist` file to `~/Library/LaunchAgents`:
 
@@ -80,7 +80,7 @@ launchctl load <your.plist.file>
 
 ## Termination
 
-If you wish stop the system auto task, you will need the following command:
+If you wish stop the system automated task, you will need the following command:
 
 ```
 launchctl stop <your.plist.file>

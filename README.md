@@ -42,7 +42,7 @@ python3 main.py
 
 ![](./example.png)
 
-## AUTO TASK for macOS
+## AUTOMATED TASK for macOS
 
 Every day automatic execution with notification. 
 
@@ -50,7 +50,7 @@ Every day automatic execution with notification.
 
 ![](autotask/noti.png)
 
-Please read [autotask/README.md](autotask/README.md)
+Please read [autotask/README.md](autotask/README.md) for setup guideline.
 
 
 ## License
