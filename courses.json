@@ -5,7 +5,22 @@
         "Automotive Blockpraktikum": "Not Possible"
       }, 
       {
+        "Bachelor-Seminar \"Bewerbungen\"": "Not Possible"
+      }, 
+      {
+        "Bachelor-Seminar \"Trends in Mobilen und Verteilten Systemen\"": "Apply"
+      }, 
+      {
+        "Bachelorseminar \"Das Stable Marriage Problem und andere (verwandte) Zuordnungs-und Verteilungsprobleme\"": "Apply"
+      }, 
+      {
+        "Einf\u00fchrung in die Informatik: Systeme und Anwendungen": "Apply"
+      }, 
+      {
         "Fachdidaktisches Seminar Realschule 2017 (Teil des Moduls P12 Realschule)": "Apply"
+      }, 
+      {
+        "Formale Sprachen und Komplextit\u00e4t": "Not Possible"
       }, 
       {
         "Fortgeschrittene Funktionale Programmierung": "Apply"
@@ -35,7 +50,13 @@
         "Javakurs f\u00fcr Fortgeschrittene": "Apply"
       }, 
       {
+        "Logik und Diskrete Strukturen": "Not Possible"
+      }, 
+      {
         "Master-Seminar Artificial Intelligence": "Apply"
+      }, 
+      {
+        "Medieninnovationen von Social Media \u00fcber virtuelle Welten bis Webvideos": "Apply"
       }, 
       {
         "Medientechnik (Praktikum)": "Apply"
@@ -50,16 +71,31 @@
         "Praktikum 3D-Modellierung (P3D)": "Not Possible"
       }, 
       {
+        "Praktikum Big Data Science": "Apply"
+      }, 
+      {
         "Praktikum Compilerbau": "Apply"
+      }, 
+      {
+        "Praktikum Entwicklung Mediensysteme": "Apply"
       }, 
       {
         "Praktikum iOS-Entwicklung": "Apply"
       }, 
       {
+        "Praktikum IT-Sicherheit": "Apply"
+      }, 
+      {
         "Praktikum Mobile und Verteilte Systeme": "Apply"
       }, 
       {
-        "Praktikum Software Engineering f\u00fcr Fortgeschrittene": "Not Possible"
+        "Praktikum Software Engineering f\u00fcr Fortgeschrittene": "Apply"
+      }, 
+      {
+        "Praktikum Webentwicklung": "Apply"
+      }, 
+      {
+        "Proseminar Medieninformatik (\"Supportive Systems\")": "Apply"
       }, 
       {
         "Proseminar Rechnernetze": "Apply"
@@ -77,6 +113,9 @@
         "Seminar und Praktikum \"Wissenschaftliches Arbeiten und Lehren\" (Dienstag Vormittag)": "Apply"
       }, 
       {
+        "Software Engineering f\u00fcr spezielle Anwendungsgebiete: Entwurf und Implementierung paralleler Programme": "Apply"
+      }, 
+      {
         "Softwareentwicklungspraktikum Android-Programmierung": "Apply"
       }, 
       {
@@ -84,6 +123,12 @@
       }, 
       {
         "Theoretische Informatik f\u00fcr Medieninformatiker": "Apply"
+      }, 
+      {
+        "Vorlesung Multimedia-Programmierung": "Apply"
+      }, 
+      {
+        "Zentralanmeldung Bachelor Seminare": "Apply"
       }, 
       {
         "Zentralanmeldung Masterseminare": "Not Possible"
@@ -298,7 +343,7 @@
         "Softwareentwicklungspraktikum Nebenfach": "Apply"
       }, 
       {
-        "Softwaretechnik": "Not Possible"
+        "Softwaretechnik": "Apply"
       }, 
       {
         "Systempraktikum": "Apply"

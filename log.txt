@@ -18,3 +18,89 @@ All new courses:
 
 Check Date:2017-03-10 14:31:02.499478
 No further changes.
+
+
+Check Date:2017-03-11 10:27:39.556923
+All new courses:
+ Not Possible : Einführung in die Informatik: Systeme und Anwendungen
+
+
+Check Date:2017-03-11 21:49:28.087905
+All new courses:
+    Apply     : Einführung in die Informatik: Systeme und Anwendungen
+
+
+Check Date:2017-03-11 21:50:31.615054
+No further changes.
+
+
+Check Date:2017-03-11 22:03:07.702892
+No further changes.
+
+
+Check Date:2017-03-11 22:06:18.991543
+No further changes.
+
+
+Check Date:2017-03-11 22:55:45.029381
+No further changes.
+
+
+Check Date:2017-03-12 10:52:20.079494
+No further changes.
+
+
+Check Date:2017-03-13 00:07:03.847756
+No further changes.
+
+Check Date:2017-03-13 10:38:38.637735
+All new courses:
+ Not Possible : Zentralanmeldung Bachelor Seminare
+
+
+Check Date:2017-03-15 09:24:56.785207
+All new courses:
+ Not Possible : Formale Sprachen und Komplextität
+ Not Possible : Logik und Diskrete Strukturen
+    Apply     : Praktikum Software Engineering für Fortgeschrittene
+    Apply     : Software Engineering für spezielle Anwendungsgebiete: Entwurf und Implementierung paralleler Programme
+    Apply     : Softwaretechnik
+
+
+Check Date:2017-03-15 17:19:54.424334
+All new courses:
+ Not Possible : Bachelor-Seminar "Bewerbungen"
+    Apply     : Medieninnovationen von Social Media über virtuelle Welten bis Webvideos
+    Apply     : Vorlesung Multimedia-Programmierung
+
+
+Check Date:2017-03-18 15:02:36.726159
+All new courses:
+    Apply     : Praktikum Big Data Science
+    Apply     : Proseminar Medieninformatik ("Supportive Systems")
+
+
+Check Date:2017-03-19 07:53:21.823570
+All new courses:
+    Apply     : Bachelor-Seminar "Trends in Mobilen und Verteilten Systemen"
+
+
+Check Date:2017-03-20 11:04:28.489436
+All new courses:
+    Apply     : Bachelorseminar "Das Stable Marriage Problem und andere (verwandte) Zuordnungs-und Verteilungsprobleme"
+    Apply     : Praktikum IT-Sicherheit
+    Apply     : Zentralanmeldung Bachelor Seminare
+
+
+Check Date:2017-03-20 16:24:30.573752
+All new courses:
+    Apply     : Praktikum Webentwicklung
+
+
+Check Date:2017-03-21 08:12:40.422276
+No further changes.
+
+
+Check Date:2017-03-21 11:44:44.346264
+All new courses:
+    Apply     : Praktikum Entwicklung Mediensysteme

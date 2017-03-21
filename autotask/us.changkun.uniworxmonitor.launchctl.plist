@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>us.changkun.uniworxmonitor.launchctl.plist</string>
+	<key>ProgramArguments</key>
+	<array>
+        <string>/PATH/TO/YOUR/auto.sh</string>
+	</array>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Minute</key>
+		<integer>0</integer>
+		<key>Hour</key>
+		<integer>14</integer>
+	</dict>
+	<key>StandardOutPath</key>
+    <string>/PATH/TO/YOUR/auto.log</string>
+	<key>StandardErrorPath</key>
+    <string>/PATH/TO/YOUR/auto.err</string>
+</dict>
+</plist>

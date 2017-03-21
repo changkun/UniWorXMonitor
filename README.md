@@ -2,6 +2,8 @@
 
 Simple Python script to monitor LMU UniWorX courses.
 
+> IF YOU HAVE ANY PROBLEM AND IMPROVEMENT IDEA, PLEASE [OPEN AN ISSUE](https://github.com/changkun/UniWorXMonitor/issues)  OR START A PULL REQUEST THAT HELPS ME IMPROVE THIS PROJECT.
+
 ## Usage
 
 **Install dependencies**:
@@ -40,6 +42,15 @@ python3 main.py
 
 ![](./example.png)
 
+## AUTO TASK for macOS
+
+Every day automatic execution with notification. 
+
+**Example:**
+
+![](autotask/noti.png)
+
+Please read [autotask/README.md](autotask/README.md)
 
 
 ## License

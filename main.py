@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+
 """UniWorXMonitor
 
 This script gives you a simple tool to monitor the courses changes on LMU
@@ -39,7 +41,7 @@ def load_info():
     Returns:
         dict: the account info within a dict
     """
-    with open('infos.json') as file_obj:
+    with open('./infos.json') as file_obj:
         payload = json.load(file_obj)
     return payload
 
@@ -132,7 +134,7 @@ def fetch_old_courses_status():
         list: all courses with its status from local file
     """
     try:
-        file_obj = open('courses.json', 'rb')
+        file_obj = open('./courses.json', 'rb')
         courses = json.load(file_obj)
         return courses
     except (IOError, ValueError):
@@ -196,13 +198,13 @@ def stores(changes, new_courses):
         changes (list): all change logs (each line as a string) within a list
         new_courses (dict): actually a json object dump to json file
     """
-    with open('log.txt', 'a') as file_obj:
+    with open('./log.txt', 'a') as file_obj:
         if sys.version_info[0] == 3:
             file_obj.write('\n'.join(changes))
         else:
             for change in changes:
                 file_obj.write('\n'+change.encode('utf-8'))
-    with open('courses.json', 'w+') as file_obj:
+    with open('./courses.json', 'w+') as file_obj:
         json.dump(new_courses, file_obj, indent=2)
     print('You can also open `log.txt` and check for changes history.')
 
