@@ -5,7 +5,7 @@
         "Automotive Blockpraktikum": "Not Possible"
       }, 
       {
-        "Bachelor-Seminar \"Bewerbungen\"": "Not Possible"
+        "Bachelor-Seminar \"Bewerbungen\"": "Apply"
       }, 
       {
         "Bachelor-Seminar \"Trends in Mobilen und Verteilten Systemen\"": "Apply"
@@ -14,10 +14,16 @@
         "Bachelorseminar \"Das Stable Marriage Problem und andere (verwandte) Zuordnungs-und Verteilungsprobleme\"": "Apply"
       }, 
       {
+        "Cryptography": "Apply"
+      }, 
+      {
         "Einf\u00fchrung in die Informatik: Systeme und Anwendungen": "Apply"
       }, 
       {
         "Fachdidaktisches Seminar Realschule 2017 (Teil des Moduls P12 Realschule)": "Apply"
+      }, 
+      {
+        "Formale Spezifikation und Verifikation": "Apply"
       }, 
       {
         "Formale Sprachen und Komplextit\u00e4t": "Not Possible"
@@ -53,6 +59,15 @@
         "Logik und Diskrete Strukturen": "Not Possible"
       }, 
       {
+        "Machine Learning": "Not Possible"
+      }, 
+      {
+        "Master (Data Science) Practical: \"Human Computation and Analytics\"": "Not Possible"
+      }, 
+      {
+        "Master Module: Human Computation (Lecture + Exercise)": "Apply"
+      }, 
+      {
         "Master-Seminar Artificial Intelligence": "Apply"
       }, 
       {
@@ -86,13 +101,19 @@
         "Praktikum IT-Sicherheit": "Apply"
       }, 
       {
+        "Praktikum Mediengestaltung 1 \"Imagevideo\"": "Not Possible"
+      }, 
+      {
+        "Praktikum Mediengestaltung21 \"Sprachapp\"": "Apply"
+      }, 
+      {
         "Praktikum Mobile und Verteilte Systeme": "Apply"
       }, 
       {
         "Praktikum Software Engineering f\u00fcr Fortgeschrittene": "Apply"
       }, 
       {
-        "Praktikum Webentwicklung": "Apply"
+        "Praktikum Webprogrammierung": "Apply"
       }, 
       {
         "Proseminar Medieninformatik (\"Supportive Systems\")": "Apply"
@@ -134,7 +155,7 @@
         "Zentralanmeldung Masterseminare": "Not Possible"
       }, 
       {
-        "Zentralanmeldung Softwareentwicklungspraktika SS17": "Apply"
+        "Zentralanmeldung Softwareentwicklungspraktika SS17": "Not Possible"
       }
     ], 
     "semester": "SoSe2017"

@@ -104,3 +104,54 @@ No further changes.
 Check Date:2017-03-21 11:44:44.346264
 All new courses:
     Apply     : Praktikum Entwicklung Mediensysteme
+
+
+Check Date:2017-03-21 16:55:04.894709
+No further changes.
+
+
+Check Date:2017-03-22 14:00:04.704490
+All new courses:
+    Apply     : Formale Spezifikation und Verifikation
+
+
+Check Date:2017-03-23 14:00:08.631391
+All new courses:
+ Not Possible : Praktikum Mediengestaltung 1 "Imagevideo"
+    Apply     : Praktikum Mediengestaltung21 "Sprachapp"
+    Apply     : Praktikum Webprogrammierung
+
+
+Check Date:2017-03-24 14:21:28.749210
+No further changes.
+
+
+Check Date:2017-03-25 14:00:04.881499
+All new courses:
+    Apply     : Master Modul: Human Computation (Lecture + Exercise)
+
+
+Check Date:2017-03-26 14:00:05.728051
+All new courses:
+    Apply     : Master Module: Human Computation (Lecture + Exercise)
+
+
+Check Date:2017-03-27 14:00:08.622512
+All new courses:
+    Apply     : Bachelor-Seminar "Bewerbungen"
+
+
+Check Date:2017-03-28 14:00:06.105778
+All new courses:
+    Apply     : Cryptography
+ Not Possible : Machine Learning
+ Not Possible : Zentralanmeldung Softwareentwicklungspraktika SS17
+
+
+Check Date:2017-03-29 14:00:05.311029
+All new courses:
+ Not Possible : Master (Data Science) Practical: "Human Computation and Analytics"
+
+
+Check Date:2017-03-30 14:00:05.711742
+No further changes.

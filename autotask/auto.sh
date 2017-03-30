@@ -1,5 +1,9 @@
-# uniworx=/Users/changkun/Documents/Git/UniWorxMonitor
+
+# Configure the following path
 uniworx=/PATH/TO/YOUR/UniworXMonitor
+# Example:
+# uniworx=/Users/changkun/Documents/Git/UniWorXMonitor
+
 cd $uniworx
 found=false
 
@@ -12,7 +16,6 @@ fi
 
 osascript -e "display notification \" $message \" with title \"UniWorXMonitor\""
 
-echo $found
 if "$found" = true; then
     osascript -e "tell application \"Finder\" to open POSIX file \"$uniworx/log.txt\""
 fi
