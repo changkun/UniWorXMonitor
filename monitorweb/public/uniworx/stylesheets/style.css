@@ -24,7 +24,8 @@ header {
 header::before {
   font-weight: bold;
   content: attr(title);
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
   color: #fff;
   display: block;
   line-height: 1;
@@ -60,20 +61,24 @@ header img:hover {
   text-align: center;
   display: block;
   margin: 0 auto;
-  width: 400px;
-  height: 40px;
+  width: 250px;
+  height: 30px;
   font-size: 15px;
   border: 1px solid #4fc08d;
   border-radius: 5px;
   color: #4fc08d;
   outline: none;
-  width: 300px;
   transition: width 0.3s ease-in-out;
   padding: 10px;
 }
 #app input[type=email]:focus {
   width: 60%;
 }
+@media (max-width: 450px) {
+  #app input[type=email]:focus {
+    width: 280px;
+  }
+} 
 #app p {
   margin: 0 auto;
   margin-bottom: 50px;
