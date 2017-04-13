@@ -56,15 +56,12 @@ router.post('/add', function(req, res, next) {
         info   = 'You already subscribed!';
       } else {
         data.users.push(req.body.email);
-        fs.writeFile(path.join(__dirname, '../data/users.json'), JSON.stringify(data), function(err) {
-          if (err) throw err;
-          console.log('file has been updated');
-        })
+        fs.writeFileSync(path.join(__dirname, '../data/users.json'), JSON.stringify(data));
         status = 'Success';
         info   = 'You has become our user!';
       }
     } else {
-      status = 'fail';
+      status = 'Fail';
       info   = 'Your email is not valid!'
     }
     res.send({
@@ -84,10 +81,7 @@ router.post('/del', function(req, res, next) {
     if(validate(req.body.email)) {
       if(data.users.indexOf(req.body.email) > -1) {
         data.users.splice(data.users.indexOf(req.body.email), 1)
-        fs.writeFile(path.join(__dirname, '../data/users.json'), JSON.stringify(data), function(err) {
-          if (err) throw err;
-          console.log('file has been updated');
-        })
+        fs.writeFileSync(path.join(__dirname, '../data/users.json'), JSON.stringify(data));
         status = 'Success';
         info   = 'You have unsubscribed mail notification.';
       } else {
