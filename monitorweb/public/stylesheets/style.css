@@ -1,0 +1,134 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2c3e50;
+  word-spacing: 0.05em;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 10px;
+  background-color: #50bf8f;
+  height: 50px;
+}
+header::before {
+  font-weight: bold;
+  content: attr(title);
+  text-align: center;
+  color: #fff;
+  display: block;
+  line-height: 1;
+  position: absolute;
+  margin-top: 12px;
+  font-size: 1.5em;
+  width: 100%;
+}
+header div {
+  background: transparent;
+  color: #eee;
+  display: inline;
+  left: 0;
+}
+header img {
+  filter: none;
+  opacity: 1;
+  height: 100%;
+  float: right;
+  margin-right: 20px;
+}
+header img:hover {
+  transition: all .3s ease;
+  filter: grayscale(100%);
+  opacity: 0.66;
+}
+#app {
+  margin: 200px auto;
+  max-width: 800px;
+  font-size: 34px;
+}
+#app input {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 40px;
+  font-size: 15px;
+  border: 1px solid #4fc08d;
+  border-radius: 5px;
+  color: #4fc08d;
+  outline: none;
+  width: 300px;
+  transition: width 0.3s ease-in-out;
+  padding: 10px;
+}
+#app input[type=email]:focus {
+  width: 60%;
+}
+#app p {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 600px;
+  font-size: 0.8em;
+}
+#app .users p {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#app .users ul {
+  margin: 0 auto;
+  padding: 0;
+}
+#app .users li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 20px;
+}
+button {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.75em 2em;
+  border-radius: 0.4em;
+  display: inline-block;
+  color: #fff;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+}
+.green {
+  background-color: #4fc08d;
+  border: 1px solid #4fc08d;
+}
+.red {
+  background-color: #f66;
+  border: 1px solid #f66;
+}
+.response {
+  padding: 20px;
+}
+.response .status {
+  margin: 20px;
+}
+.response .info {
+  font-size: 20px;
+  margin: 20px;
+}
+footer {
+  color: #aaa;
+  background-color: #eee;
+  position: fixed;
+  width: 100%;
+  display: block;
+  text-align: center;
+  bottom: 0;
+}
