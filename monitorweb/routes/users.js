@@ -1,6 +1,8 @@
 var express = require('express');
 var fs = require('fs')
 var path = require('path')
+var util = require('util');
+var spawn = require('child_process').spawn
 var router = express.Router();
 
 function validate(email) {
@@ -59,6 +61,10 @@ router.post('/add', function(req, res, next) {
         fs.writeFileSync(path.join(__dirname, '../data/users.json'), JSON.stringify(data));
         status = 'Success';
         info   = 'You has become our user!';
+        var process = spawn('python3', [path.join(__dirname, '../monitor/sendmail.py'), 'subscribe', req.body.email]);
+        process.stdout.on('data', function (data){
+          util.log(data.toString())
+        });
       }
     } else {
       status = 'Fail';
@@ -84,6 +90,9 @@ router.post('/del', function(req, res, next) {
         fs.writeFileSync(path.join(__dirname, '../data/users.json'), JSON.stringify(data));
         status = 'Success';
         info   = 'You have unsubscribed mail notification.';
+        var process = spawn('python3', [path.join(__dirname, '../monitor/sendmail.py'), 'unsubscribe', req.body.email]);        process.stdout.on('data', function (data){
+          util.log(data.toString())
+        });
       } else {
         status = 'Fail';
         info   = 'You are not subscribed yet.';

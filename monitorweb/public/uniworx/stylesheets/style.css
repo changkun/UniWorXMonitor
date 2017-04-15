@@ -97,6 +97,23 @@ header img:hover {
   margin-top: 100px;
   margin-bottom: 20px;
 }
+@media (max-width: 450px) {
+  #app {
+    margin-top: 100px;
+  }
+  #app p {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 0.5em;
+  }
+  #app .users p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  footer {
+    font-size: 0.5em;
+  }
+}
 #app .users ul {
   margin: 0 auto;
   padding: 0;

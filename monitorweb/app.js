@@ -42,4 +42,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// TODO: here to add a daily execution callback
+
 module.exports = app;

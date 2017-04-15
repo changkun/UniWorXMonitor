@@ -1,0 +1,10 @@
+{
+  "uniworx": {
+    "username": "uniworx_account",
+    "password": "uniworx_password"
+  },
+  "manager": {
+    "email": "sender@domain.com",
+    "passcode": "sender_passcode"
+  }
+}
