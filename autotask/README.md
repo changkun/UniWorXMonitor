@@ -39,7 +39,7 @@ launchctl start ~/Library/LaunchAgents/us.changkun.uniworxmonitor.launchctl.plis
 
 As results, system will execute the script automatically and notify you through system notification, for instance:
 
-![](noti.png)
+![](../assets/noti.png)
 
 
 ## Customization
