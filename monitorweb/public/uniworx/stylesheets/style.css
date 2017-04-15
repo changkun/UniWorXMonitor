@@ -34,6 +34,14 @@ header::before {
   font-size: 1.5em;
   width: 100%;
 }
+@media (max-width: 450px) {
+  header::before {
+    margin-top: 17px;
+    margin-left: 5px;
+    padding-left: 5px;
+    font-size: 1em;
+  }
+} 
 header div {
   background: transparent;
   color: #eee;
@@ -117,6 +125,13 @@ button {
 .red {
   background-color: #f66;
   border: 1px solid #f66;
+}
+#app .function .hint {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: gray;
 }
 .response {
   padding: 20px;
