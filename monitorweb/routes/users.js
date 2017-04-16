@@ -65,6 +65,12 @@ router.post('/add', function(req, res, next) {
         process.stdout.on('data', function (data){
           util.log(data.toString())
         });
+        process.stderr.on('data', function(data) {
+          util.log(data.toString());
+        });
+        process.on('close', function(code) {
+          util.log('process quit '+code);
+        });
       }
     } else {
       status = 'Fail';
@@ -92,6 +98,12 @@ router.post('/del', function(req, res, next) {
         info   = 'You have unsubscribed mail notification.';
         var process = spawn('python3', [path.join(__dirname, '../monitor/sendmail.py'), 'unsubscribe', req.body.email]);        process.stdout.on('data', function (data){
           util.log(data.toString())
+        });
+        process.stderr.on('data', function(data) {
+          util.log(data.toString());
+        });
+        process.on('close', function(code) {
+          util.log('process quit '+code);
         });
       } else {
         status = 'Fail';

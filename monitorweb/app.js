@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var schedule = require('node-schedule');
 var spawn = require('child_process').spawn
+var util  = require('util')
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -48,17 +49,17 @@ app.use(function(err, req, res, next) {
 
 // Execution per hour
 schedule.scheduleJob('0 * * * *', function(){
-  console.log('UniWorX checking start...')
+  util.log('UniWorX checking start...')
   var process = spawn('python3', [path.join(__dirname, './monitor/main.py'), 'send']);
   process.stdout.on('data', function (data){
-    console.log(data.toString())
-    console.log('Finished.')
+    util.log(data.toString())
+    util.log('Finished.')
   });
   process.stderr.on('data', function(data) {
-    console.log(data.toString());
+    util.log(data.toString());
   });
   process.on('close', function(code) {
-    console.log('process quit '+code);
+    util.log('process quit '+code);
   });
 });
 
