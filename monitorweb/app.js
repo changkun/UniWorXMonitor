@@ -9,6 +9,7 @@ var spawn = require('child_process').spawn
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var data  = require('./routes/data')
 
 var app = express();
  
@@ -25,6 +26,7 @@ app.use(cookieParser());
 app.use('/', index);
 app.use('/uniworx', express.static(path.join(__dirname, 'public/uniworx')));
 app.use('/users', users);
+app.use('/data', data)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
