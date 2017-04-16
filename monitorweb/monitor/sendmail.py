@@ -14,7 +14,8 @@ import sys
 from email.mime.text import MIMEText
 from email.header import Header
 from smtplib import SMTP
-from loader import load_emails, load_manager_account
+from tqdm import tqdm
+from loader import load_emails, load_manager_account, load_changes
 
 HOST = 'mail.changkun.de'
 TITLE = {
@@ -66,7 +67,6 @@ def dynamic_msg():
     content = """Dear UniWorX Monitor subscriber,
 
 We notify you that UniWorX launched new courses to apply:
-
 {0}
 
 ---
@@ -76,8 +76,13 @@ UniWorX Monitor
 website: http://changkun.de/uniworx
 github:  https://github.com/changkun/UniWorXMonitor
 """
-    # TODO: fix here
-    courses = '1. Lecture UniWorX Monitor Development'
+    changes = load_changes()
+    courses = """
+
+"""
+    for course in changes['apply']:
+        print(course)
+        courses += course['name'] + '\n'
     return title, content.format(courses)
 
 
@@ -88,6 +93,7 @@ def send_mail(host, account, passcode, receiver, title, content):
     smtp = SMTP(host)
     smtp.ehlo(host)
     smtp.login(account, passcode)
+    smtp.set_debuglevel(1)
 
     # construct message
     email = MIMEText(content, "plain", 'utf-8')
@@ -111,17 +117,19 @@ def sender(sender_type, email=''):
     passcode = load_manager_account()['passcode']
 
     if sender_type == 'all':
-        for email in emails:
+        print('sending...')
+        for email in tqdm(emails):
             title, content = dynamic_msg()
             send_mail(HOST, account, passcode, email, title, content)
     else:
         title = TITLE[sender_type]
         content = CONTENT[sender_type]
         send_mail(HOST, account, passcode, email, title, content)
+    return 'done'
 
 
 if __name__ == '__main__':
     print('start sending email...')
-    sender(sys.argv[1], sys.argv[2])
+    print(sender(sys.argv[1], sys.argv[2]))
     print('emails have been sended')
     sys.stdout.flush()

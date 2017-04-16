@@ -4,6 +4,8 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var schedule = require('node-schedule');
+var spawn = require('child_process').spawn
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -42,6 +44,20 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-// TODO: here to add a daily execution callback
+// Execution per hour
+schedule.scheduleJob('0 * * * *', function(){
+  console.log('UniWorX checking start...')
+  var process = spawn('python3', [path.join(__dirname, './monitor/main.py'), 'send']);
+  process.stdout.on('data', function (data){
+    console.log(data.toString())
+    console.log('Finished.')
+  });
+  process.stderr.on('data', function(data) {
+    console.log(data.toString());
+  });
+  process.on('close', function(code) {
+    console.log('process quit '+code);
+  });
+});
 
 module.exports = app;

@@ -2,7 +2,7 @@
 
 """UniWorXMonitor
 
-loader.py
+monitorweb/monitor/loader.py
 
 Author:
     - Changkun Ou <hi@changkun.us>
@@ -10,7 +10,10 @@ Author:
 Lisence: MIT
 """
 
+import os
 import json
+
+ABSOLUTE_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 def load_uniworx_account():
@@ -19,7 +22,7 @@ def load_uniworx_account():
     Returns:
         dict: the account info within a dict
     """
-    with open('../data/account.json', encoding='utf-8') as file_obj:
+    with open(ABSOLUTE_PATH+'/../data/account.json', encoding='utf-8') as file_obj:
         payload = json.load(file_obj)
     return payload['uniworx']
 
@@ -30,7 +33,7 @@ def load_manager_account():
     Returns:
         dict: the account info within a dict
     """
-    with open('../data/account.json', encoding='utf-8') as file_obj:
+    with open(ABSOLUTE_PATH+'/../data/account.json', encoding='utf-8') as file_obj:
         payload = json.load(file_obj)
     return payload['manager']
 
@@ -42,11 +45,18 @@ def load_courses():
         list: all courses with its status from local file
     """
     try:
-        file_obj = open('../data/courses.json', encoding='utf-8')
+        file_obj = open(ABSOLUTE_PATH+'/../data/courses.json', encoding='utf-8')
         courses = json.load(file_obj)
         return courses
     except (IOError, ValueError):
         return []
+
+
+def load_changes():
+    """Fetch changes
+    """
+    with open(ABSOLUTE_PATH+'/../data/log.json', encoding='utf-8') as file_obj:
+        return json.load(file_obj)['latest']
 
 
 def load_emails():
@@ -55,21 +65,9 @@ def load_emails():
     Return:
         list: all subscriber email
     """
-    with open('../data/users.json', encoding='utf-8') as users:
+    with open(ABSOLUTE_PATH+'/../data/users.json', encoding='utf-8') as users:
         payload = json.load(users)
     return payload['users']
-
-
-def store_changes(changes):
-    """Write changes
-    Write changes into `log.txt`;
-
-    Args:
-        changes (list): all change logs (each line as a string) within a list
-    """
-    # TODO: fix here from txt to json log
-    with open('../data/log.txt', 'a', encoding='utf-8') as file_obj:
-        file_obj.write('\n'.join(changes))
 
 
 def store_courses(courses):
@@ -79,5 +77,16 @@ def store_courses(courses):
     Args:
         courses (dict): actually a json object dump to json file
     """
-    with open('../data/courses.json', 'w+', encoding='utf-8') as file_obj:
+    with open(ABSOLUTE_PATH+'/../data/courses.json', 'w+', encoding='utf-8') as file_obj:
         json.dump(courses, file_obj, indent=2)
+
+
+def store_changes(changes):
+    """Write logs
+    """
+    with open(ABSOLUTE_PATH+'/../data/log.json', 'r', encoding='utf-8') as file_obj:
+        history = json.load(file_obj)
+    with open(ABSOLUTE_PATH+'/../data/log.json', 'w', encoding='utf-8') as file_obj:
+        history['old'].append(history['latest'])
+        history['latest'] = changes
+        json.dump(history, file_obj, indent=2)
