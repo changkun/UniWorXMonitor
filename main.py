@@ -158,6 +158,10 @@ def monitor():
     new_courses = fetch_new_courses_status()
     old_courses = fetch_old_courses_status()
 
+    if len(new_courses) is 0:
+        print('Can\'t fetch any courses, check your account or passcode.')
+        return
+
     # Condition cared: status changed (including new course,
     # and old courses status are switched)
     courses_changed = []

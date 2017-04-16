@@ -129,6 +129,10 @@ def monitor(diliver=False):
     3. send email if diliver is true
     """
     new_courses = courses_fetcher()
+    if len(new_courses) is 0:
+        print('Can\'t fetch any courses, check your account or passcode.')
+        return
+
     old_courses = loader.load_courses()
 
     # Condition cared: status changed (including new course,
