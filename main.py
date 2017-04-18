@@ -114,11 +114,16 @@ def fetch_new_courses_status():
                     }
                     continue
                 elif class_name == 'indent':
-                    if child.select('.registerBox input'):
-                        semester_courses['courses'].append({
-                            child.select('h4 a')[0].string: 'Apply'
-                        })
-                    else:
+                    try:
+                        if 'abmelden' not in child.select('.registerBox input')[0]['value'].lower():
+                            semester_courses['courses'].append({
+                                child.select('h4 a')[0].string: 'Apply'
+                            })
+                        else:
+                            semester_courses['courses'].append({
+                                child.select('h4 a')[0].string: 'Not Possible'
+                            })
+                    except IndexError:
                         semester_courses['courses'].append({
                             child.select('h4 a')[0].string: 'Not Possible'
                         })
