@@ -1,0 +1,59 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/html-echo/html-echo.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="about-page">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding: 10px;
+				margin-bottom: 30px;
+      }
+			.card {
+				max-width: 600px;
+				margin: 20px auto;
+			}
+    </style>
+    <div class="card">
+			<h1>About [[title]]</h1>
+			<p> 
+				<a href="https://github.com/changkun/uniworxmonitor">[[title]]</a> is an open source project.
+			</p>
+			<h2>Motivation</h2>
+			<p>The LMU UniWorX is an course system for LMU computer science students. However the course selection and new course notification is extremly not user friendly.</p>
+			<p>Thus, [[title]] is developed to improve UniWorX expereinces.</p>
+
+			<h2>Functions</h2>
+			<h4>1. Monitor Logs</h4>
+			<p>Monitor Logs gives you the daily new course launching log records. You can use this to track the UniWorX courses change history.</p>
+			<h4>2. Course Viewer</h4>
+			<p>Course Viewer is a better tool to review course page content, you can view all contents of all courses at here.</p>
+			<h4>3. Subscription Service</h4>
+			<p>If you don't wish perform a daily check on website, we also provides Email Notification Service. Once you subscibe our service, you will recieve the new course notification.</p>
+			<h2>Desktop Version</h2>
+			<p>GUI desktop version are avaliable. You can download and use the desktop version of [[title]] from here:</p>
+			<ul>
+				<li><a href="">macOS</a></li>
+				<li><a href="">Linux</a></li>
+				<li><a href="">Windows</a></li>
+			</ul>
+		</div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'about-page',
+			properties: {
+        title: {
+          type: String,
+          value: 'LMU UniWorX Monitor'
+        }
+      },
+      ready: function() {
+      }
+    });
+  </script>
+</dom-module>

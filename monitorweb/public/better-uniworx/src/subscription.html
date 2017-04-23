@@ -1,0 +1,114 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="subscription-page">
+  <template>
+    <style include="shared-styles iron-flex iron-flex-alignment">
+      :host {
+        display: block;
+        padding: 10px;
+
+      }
+      .card {
+        margin: 20px auto;
+        max-width: 700px;
+      }
+      p {
+        font-size: 1.3em;
+        text-align: center;
+      }
+      p.hint {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        color: gray;
+      }
+      paper-input {
+        text-align: center;
+        max-width: 600px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        --paper-input-container-focus-color: #4fc08d;
+      }
+      paper-button {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: none;
+      }
+      paper-button.green {
+        background-color: #4fc08d;
+        color: white;
+      }
+      paper-button.red {
+        background-color: #f66;
+        color: white;
+      }
+      .flex-center-vertical {
+        @apply(--layout-vertical);
+        @apply(--layout-center);
+      }
+      .flex-center-horizontal {
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+      }
+      li {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 10px;
+      }
+    </style>
+    <div class="card flex-center-vertical">
+      <div>
+        <p>
+          Please submit your e-mail to 
+          <font style="color: #4fc08d;">subscribe</font>/<font style="color: #f66;">unsubscribe</font><br>
+          UniWorX new courses notification, <font style="color: #fef290; text-shadow: 1.5px 0 #aaa;">now :)</font>
+        </p>
+        <paper-input label="Input Your Email Here">
+        </paper-input>
+      </div>
+      
+      <div class="flex-center-horizontal">
+
+        <paper-button class="green" on-tap="openDialog">Subscribe</paper-button>
+        <paper-button class="red">Unsubscribe</paper-button>
+      </div>
+
+      <div>
+        <p class="hint">
+          ⚠️ We're not able to deliver email to some Chinese mail hosts (such as QQ mail),
+          please provide email such as Gmail or Outlook etc. Furthermore,
+          If you do not see our subscribetion confirmation, please also check your junk box
+        </p>
+      </div>
+      
+    </div>
+    <iron-ajax
+        auto
+        url="/users"
+        method="GET"
+        last-response="{{data}}">
+    </iron-ajax>
+    <div class="card">
+      <h1>Subscribed users:</h1>
+      <ul>
+        
+        <template is="dom-repeat" items="[[data.users]]" as="email">
+          <li>[[email]]</li>
+        </template>
+      </ul>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'subscription-page'
+    });
+  </script>
+</dom-module>

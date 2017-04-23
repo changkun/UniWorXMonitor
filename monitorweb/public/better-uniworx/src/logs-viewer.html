@@ -1,0 +1,72 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-spinner/paper-spinner-lite.html">
+<link rel="import" href="../bower_components/html-echo/html-echo.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="logs-viewer">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+    </style>
+    <iron-ajax
+        auto
+        url="[[ apiUrl ]]"
+				method="POST"
+				content-type="application/json"
+				body="[[body]]"
+        last-response="{{ response }}"
+        loading="{{ loading }}"
+        debounce-duration="300">
+    </iron-ajax>
+    <paper-spinner-lite active="[[ loading ]]" hidden$="[[ !loading ]]"></paper-spinner-lite>
+
+		<div class="card">
+			<h1>Date: [[response.time]]</h1>
+			<p>Apply:</p>
+			<ul>
+				<template is="dom-repeat" items="[[response.apply]]" as="apply">
+					<ul>
+						[[apply.name]]
+					</ul>
+				</template>
+			</ul>
+			<p>Not possible:</p>
+			<ul>
+				<template is="dom-repeat" items="[[response.not_possible]]" as="impossible">
+					<ul>
+						[[impossible.name]]
+					</ul>
+				</template>
+			</ul>
+		</div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'logs-viewer',
+      ready: function() {
+        this.apiUrl = '/api/logs';
+				this.queryDate = new Date('2017-04-22')
+				this.body = {
+					'date': this.queryDate.toISOString()
+				}
+				// var self = this
+				// document.addEventListener('scroll', function (event) {
+				// 		if (document.body.scrollHeight == document.body.scrollTop + window.innerHeight) {
+				// 					console.log('xxx')
+				// 				self.queryDate.setDate(self.queryDate.getDate()-1)
+				// 				self.body = {
+				// 					'date': self.queryDate
+				// 				}
+				// 		}
+				// });
+      }
+    });
+  </script>
+</dom-module>

@@ -12,6 +12,7 @@
     "debug": "~2.6.3",
     "express": "~4.15.2",
     "jade": "~1.11.0",
+    "mongodb": "^2.2.26",
     "morgan": "~1.8.1",
     "node-schedule": "^1.2.1",
     "nodemailer": "^4.0.1",
