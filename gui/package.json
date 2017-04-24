@@ -1,0 +1,27 @@
+{
+  "name": "uniworx-monitor",
+  "productName": "UniWorX Monitor",
+  "version": "0.1.0",
+  "description": "An UniWorX Monitor Desktop Client.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changkun/UniWorXMonitor.git"
+  },
+  "keywords": [
+    "uniworx"
+  ],
+  "author": "Changkun Ou <hi@changkun.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/changkun/UniWorXMonitor/issues"
+  },
+  "homepage": "https://github.com/changkun/UniWorXMonitor#readme",
+  "dependencies": {
+    "electron": "^1.6.6"
+  }
+}
