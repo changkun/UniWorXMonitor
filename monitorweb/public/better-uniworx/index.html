@@ -63,6 +63,7 @@
     </script>
 
     <link rel="import" href="src/uniworx-monitor.html">
+    <link rel="import" href="bower_components/paper-toast/paper-toast.html">
 
     <style>
       body {
@@ -72,9 +73,21 @@
         min-height: 100vh;
         background-color: #eeeeee;
       }
+      .yellow-button {
+        text-transform: none;
+        color: #eeff41;
+        margin: 0 auto;
+        padding: 10px;
+        min-width: 10px;
+      }
     </style>
   </head>
   <body>
+    
+    <paper-toast id="toast" duration="4000">
+      <!--<paper-button onclick="toast.toggle()" class="yellow-button">Close</paper-button>-->
+    </paper-toast>
+    
     <uniworx-monitor></uniworx-monitor>
   </body>
 </html>

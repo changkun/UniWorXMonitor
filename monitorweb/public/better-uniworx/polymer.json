@@ -1,11 +1,11 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/my-app.html",
+  "shell": "src/uniworx-monitor.html",
   "fragments": [
-    "src/my-view1.html",
-    "src/my-view2.html",
-    "src/my-view3.html",
-    "src/my-view404.html"
+    "src/subscription.html",
+    "src/course-viewer.html",
+    "src/logs-viewer.html",
+    "src/about-page.html"
   ],
   "sourceGlobs": [
     "src/**/*",
@@ -13,7 +13,6 @@
     "bower.json"
   ],
   "includeDependencies": [
-    "manifest.json",
     "bower_components/webcomponentsjs/webcomponents-lite.min.js"
   ]
 }

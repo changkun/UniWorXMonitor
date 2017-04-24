@@ -97,13 +97,16 @@
             </a>
           </app-toolbar>
         </app-header>
+        <div>
+          <iron-pages selected="[[selectedPage]]">
+            <logs-viewer></logs-viewer>
+            <course-viewer></course-viewer>
+            <subscription-page></subscription-page>
+            <about-page></about-page>
+          </iron-pages>  
+        </div>
       </app-header-layout>
-      <iron-pages selected="[[selectedPage]]">
-        <logs-viewer></logs-viewer>
-        <course-viewer></course-viewer>
-        <subscription-page></subscription-page>
-        <about-page></about-page>
-      </iron-pages>
+      
       <footer>
         <p>Copyright © 2017  <a href="https://changkun.us/">Changkun Ou</a> (a LMU HCI student). All rights reserved.</p>
       </footer>

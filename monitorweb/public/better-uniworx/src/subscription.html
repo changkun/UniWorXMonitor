@@ -11,11 +11,6 @@
       :host {
         display: block;
         padding: 10px;
-
-      }
-      .card {
-        margin: 20px auto;
-        max-width: 700px;
       }
       p {
         font-size: 1.3em;
@@ -63,6 +58,7 @@
         margin: 10px;
       }
     </style>
+    
     <div class="card flex-center-vertical">
       <div>
         <p>
@@ -70,16 +66,24 @@
           <font style="color: #4fc08d;">subscribe</font>/<font style="color: #f66;">unsubscribe</font><br>
           UniWorX new courses notification, <font style="color: #fef290; text-shadow: 1.5px 0 #aaa;">now :)</font>
         </p>
-        <paper-input label="Input Your Email Here">
-        </paper-input>
+        <paper-input id="email" label="Input Your Email Here"></paper-input>
       </div>
       
       <div class="flex-center-horizontal">
-
-        <paper-button class="green" on-tap="openDialog">Subscribe</paper-button>
-        <paper-button class="red">Unsubscribe</paper-button>
+        <paper-button raised class="green" on-click="subscribe">Subscribe</paper-button>
+        <paper-button raised class="red" on-click="subscribe">Unsubscribe</paper-button>
+        <iron-ajax
+          auto
+          id="click"
+          url="[[apiUrl]]"
+          method="[[method]]"
+          content-type="application/json"
+          body="[[body]]"
+          on-response="responseHandler"
+          last-response="{{response}}"
+          debounce-duration="300">
+        </iron-ajax>
       </div>
-
       <div>
         <p class="hint">
           ⚠️ We're not able to deliver email to some Chinese mail hosts (such as QQ mail),
@@ -87,18 +91,17 @@
           If you do not see our subscribetion confirmation, please also check your junk box
         </p>
       </div>
-      
     </div>
     <iron-ajax
         auto
-        url="/users"
+        id="users"
+        url="/api/users"
         method="GET"
         last-response="{{data}}">
     </iron-ajax>
-    <div class="card">
+    <div id="lists" class="card">
       <h1>Subscribed users:</h1>
       <ul>
-        
         <template is="dom-repeat" items="[[data.users]]" as="email">
           <li>[[email]]</li>
         </template>
@@ -108,7 +111,34 @@
 
   <script>
     Polymer({
-      is: 'subscription-page'
+      is: 'subscription-page',
+      properties: {
+
+      },
+      subscribe: function(event) {
+        this.apiUrl = '/api/users'
+        if (event.target.getAttribute('class') === 'green') {
+          this.method = 'POST';
+        } else {
+          this.method = 'DELETE';
+        }
+        this.body = {
+          'email': this.$.email.value
+        };
+      },
+      responseHandler: function() {
+        var toast = document.getElementById('toast');
+        if (this.response.status === 'Fail') {
+          toast.style.backgroundColor = '#f66';
+        } else {
+          toast.style.backgroundColor = '#4fc08d';
+        }
+        toast.show({
+          text: this.response.status+'. '+this.response.info,
+          horizontalAlign: 'left'
+        });
+        this.$.users.generateRequest();
+      }
     });
   </script>
 </dom-module>
