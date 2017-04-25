@@ -1,0 +1,386 @@
+
+
+
+Check Date:2017-03-10 14:30:11.345465
+All new courses:
+    Apply     : Informationssicherheits-Management (Kompaktseminar)
+    Apply     : Intellectual Property & Information Technology
+    Apply     : IT-Management
+
+
+Check Date:2017-03-10 14:30:38.138637
+All new courses:
+    Apply     : Javakurs für Fortgeschrittene
+ Not Possible : Praktikum 3D-Modellierung (P3D)
+    Apply     : Praktikum iOS-Entwicklung
+    Apply     : Theoretische Informatik für Medieninformatiker
+
+
+Check Date:2017-03-10 14:31:02.499478
+No further changes.
+
+
+Check Date:2017-03-11 10:27:39.556923
+All new courses:
+ Not Possible : Einführung in die Informatik: Systeme und Anwendungen
+
+
+Check Date:2017-03-11 21:49:28.087905
+All new courses:
+    Apply     : Einführung in die Informatik: Systeme und Anwendungen
+
+
+Check Date:2017-03-11 21:50:31.615054
+No further changes.
+
+
+Check Date:2017-03-11 22:03:07.702892
+No further changes.
+
+
+Check Date:2017-03-11 22:06:18.991543
+No further changes.
+
+
+Check Date:2017-03-11 22:55:45.029381
+No further changes.
+
+
+Check Date:2017-03-12 10:52:20.079494
+No further changes.
+
+
+Check Date:2017-03-13 00:07:03.847756
+No further changes.
+
+Check Date:2017-03-13 10:38:38.637735
+All new courses:
+ Not Possible : Zentralanmeldung Bachelor Seminare
+
+
+Check Date:2017-03-15 09:24:56.785207
+All new courses:
+ Not Possible : Formale Sprachen und Komplextität
+ Not Possible : Logik und Diskrete Strukturen
+    Apply     : Praktikum Software Engineering für Fortgeschrittene
+    Apply     : Software Engineering für spezielle Anwendungsgebiete: Entwurf und Implementierung paralleler Programme
+    Apply     : Softwaretechnik
+
+
+Check Date:2017-03-15 17:19:54.424334
+All new courses:
+ Not Possible : Bachelor-Seminar "Bewerbungen"
+    Apply     : Medieninnovationen von Social Media über virtuelle Welten bis Webvideos
+    Apply     : Vorlesung Multimedia-Programmierung
+
+
+Check Date:2017-03-18 15:02:36.726159
+All new courses:
+    Apply     : Praktikum Big Data Science
+    Apply     : Proseminar Medieninformatik ("Supportive Systems")
+
+
+Check Date:2017-03-19 07:53:21.823570
+All new courses:
+    Apply     : Bachelor-Seminar "Trends in Mobilen und Verteilten Systemen"
+
+
+Check Date:2017-03-20 11:04:28.489436
+All new courses:
+    Apply     : Bachelorseminar "Das Stable Marriage Problem und andere (verwandte) Zuordnungs-und Verteilungsprobleme"
+    Apply     : Praktikum IT-Sicherheit
+    Apply     : Zentralanmeldung Bachelor Seminare
+
+
+Check Date:2017-03-20 16:24:30.573752
+All new courses:
+    Apply     : Praktikum Webentwicklung
+
+
+Check Date:2017-03-21 08:12:40.422276
+No further changes.
+
+
+Check Date:2017-03-21 11:44:44.346264
+All new courses:
+    Apply     : Praktikum Entwicklung Mediensysteme
+
+
+Check Date:2017-03-21 16:55:04.894709
+No further changes.
+
+
+Check Date:2017-03-22 14:00:04.704490
+All new courses:
+    Apply     : Formale Spezifikation und Verifikation
+
+
+Check Date:2017-03-23 14:00:08.631391
+All new courses:
+ Not Possible : Praktikum Mediengestaltung 1 "Imagevideo"
+    Apply     : Praktikum Mediengestaltung21 "Sprachapp"
+    Apply     : Praktikum Webprogrammierung
+
+
+Check Date:2017-03-24 14:21:28.749210
+No further changes.
+
+
+Check Date:2017-03-25 14:00:04.881499
+All new courses:
+    Apply     : Master Modul: Human Computation (Lecture + Exercise)
+
+
+Check Date:2017-03-26 14:00:05.728051
+All new courses:
+    Apply     : Master Module: Human Computation (Lecture + Exercise)
+
+
+Check Date:2017-03-27 14:00:08.622512
+All new courses:
+    Apply     : Bachelor-Seminar "Bewerbungen"
+
+
+Check Date:2017-03-28 14:00:06.105778
+All new courses:
+    Apply     : Cryptography
+ Not Possible : Machine Learning
+ Not Possible : Zentralanmeldung Softwareentwicklungspraktika SS17
+
+
+Check Date:2017-03-29 14:00:05.311029
+All new courses:
+ Not Possible : Master (Data Science) Practical: "Human Computation and Analytics"
+
+
+Check Date:2017-03-30 14:00:05.711742
+No further changes.
+
+
+Check Date:2017-04-01 00:07:38.592461
+All new courses:
+ Not Possible : Informationssicherheits-Management (Kompaktseminar)
+    Apply     : Master (Data Science) Practicum: "Human Computation and Analytics"
+ Not Possible : Zentralanmeldung Bachelor Seminare
+ Not Possible : Javakurs für Anfänger
+ Not Possible : Softwaretechnik
+
+
+Check Date:2017-04-01 15:19:21.809350
+All new courses:
+    Apply     : Advanced Topics in HCI
+ Not Possible : Algorithmen und Datenstrukturen
+    Apply     : Deep Models of Learning for Art History
+ Not Possible : Design Workshop 2
+    Apply     : Design Workshop 2 - Architektur
+    Apply     : Design Workshop 2 - Kunstpädagogik
+    Apply     : Design Workshop 2 - TUM
+    Apply     : Formale Sprachen und Komplextität
+    Apply     : Logik und Diskrete Strukturen
+    Apply     : Machine Learning
+    Apply     : Master Practical Course / Master-Praktikum "Data Analysis with Python"
+    Apply     : Mensch-Maschine-Interaktion 1
+    Apply     : Praktikum Mediengestaltung 1 "Imagevideo"
+    Apply     : Praktikum zu Anwendung von Informatiksystemen aus fachdidaktischer Sicht 2017 (Teilmopdul 12.1. Real bzw. 13.2 Gym)
+    Apply     : Programmierung und Modellierung
+    Apply     : Seminar "Vertiefte Themen in Mobilen und Verteilten Systemen"
+ Not Possible : Automata Theory
+ Not Possible : Mobilkommunikation I
+
+
+Check Date:2017-04-02 10:52:35.519627
+No further changes.
+
+
+Check Date:2017-04-03 12:22:04.122050
+All new courses:
+ Not Possible : DW2 SoSe2017
+    Apply     : DW2 SoSe2017  - TUM
+    Apply     : DW2 SoSe2017  Kunstpädagogik
+    Apply     : DW2 SoSe2017 - Architektur
+ Not Possible : Praktikum Compilerbau
+    Apply     : VR Workshop
+
+
+Check Date:2017-04-04 09:38:16.811935
+All new courses:
+ Not Possible : Coding Theory
+ Not Possible : Grundlagen der Analysis
+
+
+Check Date:2017-04-05 18:14:44.029974
+All new courses:
+    Apply     : Vorlesung Virtual Reality
+
+
+Check Date:2017-04-06 14:23:35.597501
+No further changes.
+
+
+Check Date:2017-04-07 16:45:48.542115
+All new courses:
+ Not Possible : Innovative Mobile Applications – Programmierung autonomer Systeme
+
+
+Check Date:2017-04-08 09:01:21.924193
+All new courses:
+ Not Possible : Praktikum Entwicklung Mediensysteme
+
+
+Check Date:2017-04-11 15:02:39.716533
+All new courses:
+ Not Possible : Bachelor-Seminar "Bewerbungen"
+    Apply     : Didaktik der Informatik 1 (Modul P2)
+    Apply     : Praktikum Affective Computing
+ Not Possible : Praktikum iOS-Entwicklung
+ Not Possible : Praktikum Mobile und Verteilte Systeme
+
+
+Check Date:2017-04-12 14:00:06.182916
+All new courses:
+    Apply     : Algorithmen und Datenstrukturen
+    Apply     : Computergrafik 1
+    Apply     : DW2 SoSe2017
+
+Check Date:2017-04-12 23:07:19.588227
+No further changes.
+
+Check Date:2017-04-12 23:07:44.946821
+No further changes.
+
+Check Date:2017-04-12 23:09:24.825576
+All new courses:
+ Not Possible : Sketching with Hardware 2017 A
+
+Check Date:2017-04-12 23:09:46.463431
+All new courses:
+    Apply     : DW2 SoSe2017  Kunstpädagogik
+
+Check Date:2017-04-13 14:00:38.029096
+All new courses:
+    Apply     : Interaction Design
+
+
+Check Date:2017-04-13 14:04:24.513317
+No further changes.
+
+
+Check Date:2017-04-14 14:00:11.555897
+All new courses:
+ Not Possible : Advanced Topics in HCI
+ Not Possible : Praktikum Mediengestaltung 1 "Imagevideo"
+ Not Possible : Praktikum Mediengestaltung21 "Sprachapp"
+
+
+Check Date:2017-04-15 00:11:36.436726
+All new courses:
+    Apply     : DW2 SoSe2017 - Kunst und Multimedia
+
+
+Check Date:2017-04-15 14:00:10.806998
+No further changes.
+
+
+Check Date:2017-04-15 14:44:07.626079
+No further changes.
+
+
+Check Date:2017-04-16 10:29:40.444927
+No further changes.
+
+
+Check Date:2017-04-17 14:01:44.645796
+All new courses:
+ Not Possible : Advanced Topics in HCI
+    Apply     : Algorithmen und Datenstrukturen
+ Not Possible : Bachelor-Seminar "Bewerbungen"
+    Apply     : Computergrafik 1
+    Apply     : Deep Models of Learning for Art History
+    Apply     : Didaktik der Informatik 1 (Modul P2)
+    Apply     : DW2 SoSe2017
+    Apply     : DW2 SoSe2017  - TUM
+    Apply     : DW2 SoSe2017 - Architektur
+    Apply     : DW2 SoSe2017 - Kunst und Multimedia
+    Apply     : Formale Sprachen und Komplextität
+ Not Possible : Informationssicherheits-Management (Kompaktseminar)
+ Not Possible : Innovative Mobile Applications – Programmierung autonomer Systeme
+    Apply     : Interaction Design
+    Apply     : Logik und Diskrete Strukturen
+    Apply     : Machine Learning
+    Apply     : Master (Data Science) Practicum: "Human Computation and Analytics"
+    Apply     : Master Practical Course / Master-Praktikum "Data Analysis with Python"
+    Apply     : Mensch-Maschine-Interaktion 1
+    Apply     : Praktikum Affective Computing
+ Not Possible : Praktikum Big Data Science
+ Not Possible : Praktikum Compilerbau
+ Not Possible : Praktikum Entwicklung Mediensysteme
+ Not Possible : Praktikum iOS-Entwicklung
+ Not Possible : Praktikum Mediengestaltung21 "Sprachapp"
+ Not Possible : Praktikum Mobile und Verteilte Systeme
+    Apply     : Praktikum zu Anwendung von Informatiksystemen aus fachdidaktischer Sicht 2017 (Teilmopdul 12.1. Real bzw. 13.2 Gym)
+    Apply     : Programmierung und Modellierung
+    Apply     : Seminar "Vertiefte Themen in Mobilen und Verteilten Systemen"
+    Apply     : Vorlesung Virtual Reality
+    Apply     : VR Workshop
+ Not Possible : Zentralanmeldung Bachelor Seminare
+ Not Possible : Automata Theory
+ Not Possible : Coding Theory
+ Not Possible : Grundlagen der Analysis
+ Not Possible : Mobilkommunikation I
+ Not Possible : Softwaretechnik
+
+
+Check Date:2017-04-18 13:51:41.046571
+All new courses:
+    Apply     : Managing Massive Multiplayer Online Games
+ Not Possible : Praktikum IT-Sicherheit
+ Not Possible : Praktikum Mediengestaltung 2 "Sprachapp"
+ Not Possible : Seminar und Praktikum "Wissenschaftliches Arbeiten und Lehren" (Dienstag Vormittag)
+
+
+Check Date:2017-04-18 13:52:12.996905
+No further changes.
+
+
+Check Date:2017-04-18 13:52:37.161105
+No further changes.
+
+
+Check Date:2017-04-18 13:53:11.027456
+No further changes.
+
+
+Check Date:2017-04-18 13:54:57.953417
+No further changes.
+
+
+Check Date:2017-04-18 13:56:21.303419
+No further changes.
+
+
+Check Date:2017-04-18 14:00:05.116066
+All new courses:
+ Not Possible : Deep Models of Learning for Art History
+ Not Possible : Machine Learning
+ Not Possible : Managing Massive Multiplayer Online Games
+ Not Possible : Master Module: Human Computation (Lecture + Exercise)
+ Not Possible : Master Practical Course / Master-Praktikum "Data Analysis with Python"
+ Not Possible : Seminar und Praktikum "Wissenschaftliches Arbeiten und Lehren" (Dienstag Abend)
+ Not Possible : Vorlesung Virtual Reality
+
+
+Check Date:2017-04-19 14:00:11.796362
+No further changes.
+
+
+Check Date:2017-04-22 14:01:28.818050
+All new courses:
+    Apply     : Design Workshop 1 (ID1 Grundlagen  / Industrial Design 1)
+ Not Possible : DW2 SoSe2017
+ Not Possible : Master (Data Science) Practicum: "Human Computation and Analytics"
+ Not Possible : Praktikum Affective Computing
+ Not Possible : Praktikum Webprogrammierung
+    Apply     : Rechnernetzte und verteilte Systeme
+ Not Possible : VR Workshop
+    Apply     : Seminar "Design und Verifikation paralleler und nebenläufiger Algorithmen"
+    Apply     : Seminar "Statische Programmanalyse"
