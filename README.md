@@ -1,6 +1,6 @@
 # UniWorX Monitor
 
-![](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)![](https://img.shields.io/badge/python-v3.6-blue.svg)![](https://img.shields.io/badge/npm-v4.5.0-blue.svg)![](https://img.shields.io/badge/bower-v1.8.0-blue.svg)![](https://img.shields.io/badge/license-MIT-blue.svg)
+![](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg) ![](https://img.shields.io/badge/python-v3.6-blue.svg) ![](https://img.shields.io/badge/npm-v4.5.0-blue.svg) ![](https://img.shields.io/badge/bower-v1.8.0-blue.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Automatable Python script to monitor LMU UniWorX courses.
 
@@ -95,4 +95,4 @@ You can visit: http://changkun.de/uniworx
 
 ## License
 
-[MIT](./LICENSE) ©️ Changkun
+[MIT](./LICENSE) © Changkun
