@@ -21,27 +21,24 @@ header {
   background-color: #50bf8f;
   height: 50px;
 }
-header::before {
-  font-weight: bold;
-  content: attr(title);
-  text-align: left;
-  padding-left: 20px;
-  color: #fff;
-  display: block;
-  line-height: 1;
-  position: absolute;
-  margin-top: 12px;
-  font-size: 1.5em;
+header ul {
+  position: fixed;
   width: 100%;
+  text-align: left;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  margin: 0 auto;
 }
-@media (max-width: 450px) {
-  header::before {
-    margin-top: 17px;
-    margin-left: 5px;
-    padding-left: 5px;
-    font-size: 1em;
-  }
-} 
+header li {
+  display: inline;
+  margin: 20px;
+  color: white;
+  float: left;
+}
+header li a:visited {
+  color: white
+}
 header div {
   background: transparent;
   color: #eee;

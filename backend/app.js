@@ -26,8 +26,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/', index);
-app.use('/uniworx', express.static(path.join(__dirname, 'public/better-uniworx')));
-app.use('/test', express.static(path.join(__dirname, 'public/test')));
+app.use('/uniworx', express.static(path.join(__dirname, '../frontend/better-uniworx')));
+app.use('/test', express.static(path.join(__dirname, '../frontend/public/test')));
 app.use('/users', users);
 app.use('/data', data)
 app.use('/api', api)

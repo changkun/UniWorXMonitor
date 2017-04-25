@@ -1,0 +1,92 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-spinner/paper-spinner-lite.html">
+<link rel="import" href="../bower_components/html-echo/html-echo.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="course-viewer">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 20px;
+        margin-bottom: 50px;
+      }
+      .card {
+        padding: 5px;
+        min-width: 700px;
+      }
+      .card h1 {
+        display: inline;
+        font-size: 1em;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+      paper-icon-button {
+        padding-left: 0;
+      }
+      .label {
+        display: block;
+      }
+      .mark {
+        background-color: #4fc08d;
+        color: white;
+        display: inline;
+        padding: 5px;
+        border-radius: 4px;
+        margin: 2px 5px;
+      }
+      .master {
+        background-color: red;
+      }
+      .bachelor {
+        background-color: yellow;
+      }
+    </style>
+    <iron-ajax
+        auto
+        url="[[ apiUrl ]]"
+        last-response="{{ response }}"
+        loading="{{ loading }}"
+        debounce-duration="300">
+    </iron-ajax>
+    <paper-spinner-lite active="[[ loading ]]" hidden$="[[ !loading ]]"></paper-spinner-lite>
+
+    <template is="dom-repeat" items="[[response]]" as="course">
+          <div class="card">
+            <a href="[[course.courseURL]]">
+              <paper-icon-button icon="icons:home"></paper-icon-button>
+            </a><a href="[[course.registerURL]]">
+              <paper-icon-button icon="icons:assignment"></paper-icon-button>
+            </a>
+            <h1>[[course.name]]</h1>
+            
+            <div class="label">
+              <div class="mark" class="[[course.level]]">
+                [[course.level]]
+              </div>
+              <div class="mark">
+                [[course.property]]
+              </div>
+            </div>
+            
+
+            
+            
+            <div>
+              <!--<html-echo html="[[course.content]]"></html-echo>-->
+            </div>
+          </div>
+    </template>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'course-viewer',
+      ready: function() {
+        this.apiUrl = '/data/courses';
+      }
+    });
+  </script>
+</dom-module>
