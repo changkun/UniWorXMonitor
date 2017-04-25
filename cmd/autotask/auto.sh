@@ -1,8 +1,8 @@
 
 # Configure the following path
-uniworx=/PATH/TO/YOUR/UniworXMonitor
+# uniworx=/PATH/TO/YOUR/UniworXMonitor
 # Example:
-# uniworx=/Users/changkun/Documents/Git/UniWorXMonitor
+uniworx=/Users/changkun/Documents/Git/UniWorXMonitor
 
 cd $uniworx
 found=false
