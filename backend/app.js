@@ -30,7 +30,7 @@ app.use('/uniworx', express.static(path.join(__dirname, '../frontend/better-uniw
 app.use('/test', express.static(path.join(__dirname, '../frontend/public/test')));
 app.use('/users', users);
 app.use('/data', data)
-app.use('/api', api)
+app.use('/api/v1', api)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

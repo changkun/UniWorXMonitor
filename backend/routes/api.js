@@ -5,28 +5,12 @@ var assert = require('assert');
 var fs = require('fs')
 var path = require('path')
 var router = express.Router();
-var url = 'mongodb://localhost:27017/uniworx';
 
-function validate(email) {
-  var tester = /^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-?\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/;
-  if (!email) return false;
+var utils = require('../tools/utils')
 
-  if (email.length>254) return false;
-  
-  var valid = tester.test(email);
-  if(!valid) return false;
-  
-  var parts = email.split('@');
-  if(parts[0].length>64) return false;
-  
-  var domainParts = parts[1].split(".");
-	if(domainParts.some(function(part) {return part.length>63; }))
-		return false;
+const url = 'mongodb://localhost:27017/uniworx';
 
-	return true;
-}
-
-// url: /uniworx/logs
+// url: /api/v1/logs
 // params: 
 //   - date: ISODate format
 // response:
@@ -67,6 +51,15 @@ router.post('/logs', function(req, res, next) {
 	});
 });
 
+// url: /api/v1/users
+// - GET:
+// 	+ response: return all encrypted user email
+// - POST:
+//  + body: 	{ 'email': 'user_email' }
+//  + response: return post results: {'status': 'Fail/Success', 'info': 'reason'}
+// - DELETE:
+//  + body: 	{ 'email': 'user_email' }
+//  + response: return delete results as same as POST
 router.use('/users', function(req, res, next) {
 	MongoClient.connect(url, function(err, db) {
 		assert.equal(null, err);
@@ -76,7 +69,7 @@ router.use('/users', function(req, res, next) {
     var info   = null;
 		if (req.method === 'POST') {
 			console.log('POST: '+req.body.email)
-			if (validate(req.body.email)) {
+			if (utils.validate(req.body.email)) {
 				users.findOne({'email': req.body.email}, function(err, document) {
 					if (document) {
 						status = 'Fail';
@@ -102,8 +95,8 @@ router.use('/users', function(req, res, next) {
 				});
 				return;
 			}
-		} else if (req.method == 'DELETE') {
-			if (validate(req.body.email)) {
+		} else if (req.method === 'DELETE') {
+			if (utils.validate(req.body.email)) {
 				users.findOne({'email': req.body.email}, function(err, document) {
 					if (document) {
 						users.deleteMany({
@@ -134,9 +127,7 @@ router.use('/users', function(req, res, next) {
 					'info': info
 				});
 			}
-			
-		} else if (req.method == 'GET') {
-			
+		} else if (req.method === 'GET') {
 			var mails = []
 			users.find({}, {'_id':0}).toArray(function(err, items) {
 				if (items.length !== 0) {
@@ -164,23 +155,15 @@ router.use('/users', function(req, res, next) {
 	})
 })
 
+// url: /api/v1/courses
+// - GET:
+// - POST:
 router.post('/courses', function(req, res, next) {
-	var semester = req.body.semester
-
 	MongoClient.connect(url, function(err, db) {
 		assert.equal(null, err);
-		var logs = db.collection('logs')
-		logs.find({
-			'time': {
-				'$gt': queryDate,
-				'$lt': tomorrow
-			}
-		}, {
-			'_id': 0
-		}).sort({'time': -1}).toArray(function(err, items) {
-			assert.equal(null, err)
-			res.json(items)
-		})
+		
+		// TODO: fix me
+
 		db.close();
 	});
 })
