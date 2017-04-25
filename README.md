@@ -2,38 +2,30 @@
 
 ![](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg) ![](https://img.shields.io/badge/python-v3.6-blue.svg) ![](https://img.shields.io/badge/npm-v4.5.0-blue.svg) ![](https://img.shields.io/badge/bower-v1.8.0-blue.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Automatable Python script to monitor LMU UniWorX courses.
+A better LMU UniWorX System with new courses notifications.
+
+> IF YOU HAVE ANY PROBLEM AND IMPROVEMENT IDEA, PLEASE [OPEN AN ISSUE](https://github.com/changkun/UniWorXMonitor/issues)  OR START A PULL REQUEST THAT HELPS ME IMPROVE THIS PROJECT.
 
 
-## Quick Usage
-
-### **Basics**:
-
-1. **Make sure** that you have [Python](https://www.python.org/) and [Pip](https://pypi.python.org/pypi/pip) running on your OS;
-2. **Clone** this repo to your local folder;
-3. `cd` into that folder for further operations. 
+## CMD Version
 
 ### **Install dependencies**:
 
-To run UniWorX Monitor, you also need install requirements.
+To run UniWorX Monitor CMD version, please `cd` into `cmd` folder. And you also need install requirements:
 
 ```bash
-sudo pip install -r requirements.txt
-# or
 sudo pip3 install -r requirements.txt
 ```
 
 ### **Configure your account**:
 
-Fill your UniWorX account information inside [infos.json](./infos.json)
+Fill your UniWorX account information inside [infos.json](./cmd/infos.json)
 
 ### **Run**:
 
 Then you are free to go:
 
 ```bash
-python main.py
-# or
 python3 main.py
 ```
 
@@ -43,29 +35,25 @@ python3 main.py
 > 2. **Afterwards** every time you execute this script can monitor the UniWorX for any course status change;
 > 3. Terminal output gives you the up-to-date changes informations for you, you can also check the `log.txt` for change history.
 
-## Example Result
+---
+
+### Example Result
 
 **Local store sample**:
 
-[courses.json](./courses.json)
+[courses.json](./cmd/courses.json)
 
 **Local logs**:
 
-[log.txt](./log.txt)
+[log.txt](./cmd/log.txt)
 
 **Execution sample**:
 
 ![](assets/example.png)
 
-## Advanced Functions
+### AUTOMATED TASK
 
-> I am currently making some advanced functions, such as AUTOMATED TASK, WEB SERVICE and GUI VERSION.
-> 
-> IF YOU HAVE ANY PROBLEM AND IMPROVEMENT IDEA, PLEASE [OPEN AN ISSUE](https://github.com/changkun/UniWorXMonitor/issues)  OR START A PULL REQUEST THAT HELPS ME IMPROVE THIS PROJECT.
-
-### 1. AUTOMATED TASK
-
-> The section related file is placed on [autotask](./autotask)
+> The section related file is placed on [autotask](./cmd/autotask)
 
 #### for macOS
 
@@ -75,23 +63,25 @@ Daily automated execution with notification.
 
 ![](assets/noti.png)
 
-Please read [autotask/README.md](autotask/README.md) for setup guide.
+Please read [autotask/README.md](./cmd/autotask/README.md) for setup guide.
 
-#### for Windows/Linux
+##### for Windows/Linux
 
 You might need find your own setup method, but PR welcome!
 
-### 2. WEB SERVICE
+## WEB Version
 
-> The section related file is placed on [monitorweb](./monitorweb)
+> The section related file is placed on [frontend](./frontend) and [backend](./backend)
+> 
+> Web service is still in development.
 
 You can visit: http://changkun.de/uniworx
 
-![](assets/web.png)
+![](assets/web2.png)
 
-### 3. GUI VERSION
+## GUI VERSION
 
-> Not developed yet.
+> GUI desktop version will be developed based on web version
 
 ## License
 
